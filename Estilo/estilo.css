@@ -1,0 +1,475 @@
+.nav{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  
+}
+
+.nav-inicio{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+ 
+}
+
+.barra {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222222; 
+    overflow: hidden; 
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.45);
+    margin-bottom: 10px;
+    z-index: 300;
+   
+}
+
+
+.barra ul {
+    list-style-type: none; 
+}
+
+
+.barra li {
+    float: left; 
+}
+
+.barra li.nav{
+    float: right;
+}
+
+.barra li a {
+    display: block;
+    color: rgb(240, 240, 240); 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none; 
+    
+}
+
+
+.barra li a:hover {
+    background-color: #474747; 
+    color: rgb(240, 231, 231); 
+    
+}
+
+/*tipografia p "Ingredientes"*/
+p {
+    color:white;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/*tipografia p "descripcion"*/
+.slogan {
+    font-family: "Paprika", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*tipografia p "busqueda-menu"*/
+.busqueda-menu {
+    font-family: "Piedra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.logo{
+    display:block;
+    margin-top: 45px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 15px 15px;
+
+    
+}
+
+.slogan{
+    color: #ee9c22;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.descripcion{
+    display: block;
+    max-width: 90%; 
+    width: 700px; 
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow:  2px 2px 4px rgba(0, 0, 0, 0.61);
+    color:#e2e2e2;
+}
+
+
+
+.busqueda-menumobile{
+    display: none;
+}
+
+.busqueda-menu{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.busqueda-menu ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.busqueda-menu li{
+    float: none; 
+    display: inline-block;  
+    margin-right: 10px; 
+}
+
+.busqueda-menu li a{
+    display: block;
+    color: rgb(240, 240, 240); 
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.61);
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none; 
+}
+
+.busqueda-menu li a:hover {
+    color: rgb(240, 231, 231); 
+    filter: brightness(150%)
+}
+
+
+
+
+section.conteiner-inicio {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.670) 0%, rgba(0, 0, 0, 0.670) 0%), url('https://img.freepik.com/foto-gratis/hamburguesa-queso-perfecta-verduras-sobre-mesa-madera-fondo-negro-ai-generativo_123827-23432.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+
+article {
+    background-color: #000000ef;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}   
+
+
+.conteiner-producto{
+    display:flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    align-items: stretch;    
+}
+
+.conteiner-producto > div{
+    background-color: rgba(53, 53, 53, 0.932);
+    border-radius: 25px;
+    margin: 10px 5px 10px 5px;
+    width: 100%;
+    flex: 1;
+}
+
+
+.comidas{
+    color:white;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:rgba(126,1,22);
+    background: linear-gradient(to top, rgb(66, 1, 12), rgba(126,1,22,1));
+    color:white;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.867);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+    font-variation-settings: "wdth" 100;
+    z-index: 100;
+    position: relative;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+
+h4{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    padding-top: .1%;
+    padding-bottom: .5%;
+    color: white;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.867);
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.ingredientes{
+    height: auto;
+    padding-top: auto;
+    padding-bottom: 3px;
+    background-color:rgba(126, 1, 22, 0);
+    text-align: center;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.precio{
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    text-shadow: 
+        0 0 10px rgba(0, 0, 0, 0.966),
+        0 0 10px rgba(0, 0, 0, 0.966),
+        0 0 10px rgba(0, 0, 0, 0.966),
+        0 0 10px rgba(0, 0, 0, 0.966),
+        0 0 10px rgba(0, 0, 0, 0.966);
+}
+
+.imagen{
+    display: block;
+    width: 150px;
+    height: auto; 
+    margin: auto;
+
+}
+
+.imagensandiwch{
+    display: block;
+    width: 250px;
+    height: auto; 
+    margin: auto;
+
+}
+
+.imagenlomo{
+    display: block;
+    width: 280px;
+    height: auto; 
+    margin: auto;
+}
+
+.imgpizza{
+    display: block;
+    width: 250px;
+    height: auto; 
+    margin: auto;
+    padding-top: 10px;
+}
+
+.imagenpapa{
+    display: block;
+    width: 200px;
+    height: auto; 
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.ingredientesChedar{
+    padding-bottom: 10px;
+    height: auto;
+    padding-top: auto;
+    background-color:rgba(126, 1, 22, 0);
+    text-align: center;
+   
+}
+
+
+footer {
+    background: linear-gradient(to bottom, rgb(66, 1, 12), rgba(126,1,22,1));
+    text-align: center; 
+    background-color:rgba(126,1,22);
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.9);
+    padding: 20px 0; 
+
+}
+
+
+.pie {
+    margin-top: 0; 
+    color: white; 
+    font-style: normal;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    font-size: 20px;
+
+}
+
+.redes {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+    align-items: center;
+}
+
+.redes > div {
+    margin: 0 10px; 
+    text-align: center; 
+    padding: 10px;
+    background-color: black; 
+    background: linear-gradient(to top, rgb(3, 0, 1), rgba(29, 29, 29, 0.952));
+    border-radius: 15px;
+    align-items: center;
+}
+
+
+
+.redes a {
+    display: inline-flex; 
+    color: white; 
+    text-decoration: none;
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+.redes a p {
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+
+}
+
+.redes img {
+    width: 35px; 
+    margin-bottom: 5px; 
+    margin-right: 2px;
+    padding-right: 3px;
+    justify-items: center;
+    align-items: center;
+}
+
+#copyright{
+    font-size: small;
+}
+
+@media only screen and (max-width: 700px) {
+
+    
+    article{
+        background: none;
+    }
+
+    .busqueda-menu{
+        display: none;
+    }
+    
+      .busqueda-menumobile{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 10px;
+        justify-content: center;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-bottom: 3vw;
+        
+    }
+    
+      
+    .busqueda-menumobile .item a{
+        color: rgb(240, 240, 240); 
+        text-shadow:2px 2px 4px rgba(0, 0, 0, 0.61);
+        text-align: center;
+        padding: 14px 10px; 
+        text-decoration: none; 
+        font-family: "Piedra", serif;
+        font-weight: 400;
+        font-style: normal;
+        
+       
+    }
+
+
+    article {
+        background-position: center center;
+        background-color: #000000ef;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+    
+    }   
+
+
+    .conteiner-producto{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly; 
+        align-items: center;
+        align-items: stretch;    
+    }
+    
+    .conteiner-producto > div{
+        background-color: rgba(37, 37, 37, 0.932);
+        border-radius: 25px;
+        margin: 10px 5px 10px 5px;
+        width: 100%;
+        flex: 1;
+    }
+    
+    
+
+   
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden; 
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
